@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al | sort -d --version-sort | sed -E ':a;N;ba;s/\n/, /g;s/,$/\//;s/(\.|[a-zA-Z0-9]+)(\/|$)/\1\2\n/g'
+ls -amp
